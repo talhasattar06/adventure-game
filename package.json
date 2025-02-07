@@ -1,0 +1,24 @@
+{
+  "name": "ts6-adventure-game",
+  "version": "1.0.0",
+  "description": "A CLI based Adventure Game created with TypeScript, Node.js, Inquirer & Chalk.",
+  "main": "main.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Talha Sattar",
+  "license": "MIT",
+  "dependencies": {
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  }
+}
